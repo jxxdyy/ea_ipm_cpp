@@ -1,7 +1,0 @@
-[01m[K/home/pjy/ros2_ws/src/ea_ipm/src/get_ea_ipm.cpp:[m[K In member function ‘[01m[Kvoid EA_IPM::topic_callback(sensor_msgs::msg::CompressedImage_<std::allocator<void> >::SharedPtr)[m[K’:
-[01m[K/home/pjy/ros2_ws/src/ea_ipm/src/get_ea_ipm.cpp:54:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kimage_col[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
-   54 |     int [01;35m[Kimage_col[m[K, image_row;
-      |         [01;35m[K^~~~~~~~~[m[K
-[01m[K/home/pjy/ros2_ws/src/ea_ipm/src/get_ea_ipm.cpp:54:20:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kimage_row[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
-   54 |     int image_col, [01;35m[Kimage_row[m[K;
-      |                    [01;35m[K^~~~~~~~~[m[K
