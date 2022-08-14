@@ -1,0 +1,6 @@
+Invoking command in '/home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/pjy/ros2_ws/src/ea_ipm -DCMAKE_INSTALL_PREFIX=/home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm
+Invoked command in '/home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/pjy/ros2_ws/src/ea_ipm -DCMAKE_INSTALL_PREFIX=/home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm
+Invoking command in '/home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm -- -j16 -l16
+Invoked command in '/home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm -- -j16 -l16
+Invoking command in '/home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm
+Invoked command in '/home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm

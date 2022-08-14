@@ -1,0 +1,19 @@
+In file included from [01m[K/home/pjy/ros2_ws/src/ea_ipm/src/get_ea_ipm.cpp:5[m[K:
+[01m[K/home/pjy/ros2_ws/src/ea_ipm/include/ea_ipm/get_ea_ipm.h:20:9:[m[K [01;31m[Kerror: [m[K‘[01m[KMat[m[K’ does not name a type; did you mean ‘[01m[KcvMat[m[K’?
+   20 |         [01;31m[KMat[m[K get_roi_mask(cv::Mat img, cv::Point* points);
+      |         [01;31m[K^~~[m[K
+      |         [32m[KcvMat[m[K
+[01m[K/home/pjy/ros2_ws/src/ea_ipm/src/get_ea_ipm.cpp:16:1:[m[K [01;31m[Kerror: [m[K‘[01m[KMat[m[K’ does not name a type; did you mean ‘[01m[KcvMat[m[K’?
+   16 | [01;31m[KMat[m[K EA_IPM::get_roi_mask(cv::Mat img, cv::Point* points)
+      | [01;31m[K^~~[m[K
+      | [32m[KcvMat[m[K
+In file included from [01m[K/home/pjy/ros2_ws/src/ea_ipm/src/get_ea_ipm_main.cpp:1[m[K:
+[01m[K/home/pjy/ros2_ws/src/ea_ipm/include/ea_ipm/get_ea_ipm.h:20:9:[m[K [01;31m[Kerror: [m[K‘[01m[KMat[m[K’ does not name a type; did you mean ‘[01m[KcvMat[m[K’?
+   20 |         [01;31m[KMat[m[K get_roi_mask(cv::Mat img, cv::Point* points);
+      |         [01;31m[K^~~[m[K
+      |         [32m[KcvMat[m[K
+make[2]: *** [CMakeFiles/ea_ipm_node.dir/build.make:76: CMakeFiles/ea_ipm_node.dir/src/get_ea_ipm_main.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/ea_ipm_node.dir/build.make:63: CMakeFiles/ea_ipm_node.dir/src/get_ea_ipm.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/ea_ipm_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

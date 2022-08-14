@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target ea_ipm_node[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/ea_ipm_node.dir/src/get_ea_ipm_main.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/ea_ipm_node.dir/src/get_ea_ipm.cpp.o[0m

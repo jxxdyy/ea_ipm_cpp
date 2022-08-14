@@ -1,0 +1,22 @@
+[0.009s] Invoking command in '/home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm -- -j16 -l16
+[0.024s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.040s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.152s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.172s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.173s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.243s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.270s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.271s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.350s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.420s] -- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)
+[0.423s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[0.423s]   ament_target_dependencies() the first argument must be a valid target name
+[0.423s] Call Stack (most recent call first):
+[0.423s]   CMakeLists.txt:33 (ament_target_dependencies)
+[0.423s] 
+[0.423s] 
+[0.423s] -- Configuring incomplete, errors occurred!
+[0.424s] See also "/home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm/CMakeFiles/CMakeOutput.log".
+[0.424s] See also "/home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm/CMakeFiles/CMakeError.log".
+[0.427s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.430s] Invoked command in '/home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm -- -j16 -l16

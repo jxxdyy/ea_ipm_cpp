@@ -1,0 +1,11 @@
+[01m[K/home/pjy/ros2_ws/src/ea_ipm/src/get_ea_ipm.cpp:[m[K In member function ‘[01m[Kcv::Mat EA_IPM::get_roi_img(cv::Mat)[m[K’:
+[01m[K/home/pjy/ros2_ws/src/ea_ipm/src/get_ea_ipm.cpp:20:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ks[m[K’ was not declared in this scope
+   20 |     [01;31m[Ks[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/pjy/ros2_ws/src/ea_ipm/src/get_ea_ipm.cpp:23:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoints[m[K’ was not declared in this scope; did you mean ‘[01m[Kprintf[m[K’?
+   23 |     [01;31m[Kpoints[m[K[0] = cv::Point(0, img.rows);
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Kprintf[m[K
+make[2]: *** [CMakeFiles/ea_ipm_node.dir/build.make:63: CMakeFiles/ea_ipm_node.dir/src/get_ea_ipm.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/ea_ipm_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

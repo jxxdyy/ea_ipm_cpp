@@ -1,0 +1,141 @@
+[0.000000] (-) TimerEvent: {}
+[0.000082] (ea_ipm) JobQueued: {'identifier': 'ea_ipm', 'dependencies': OrderedDict()}
+[0.000105] (ea_ipm) JobStarted: {'identifier': 'ea_ipm'}
+[0.008215] (ea_ipm) JobProgress: {'identifier': 'ea_ipm', 'progress': 'cmake'}
+[0.008390] (ea_ipm) Command: {'cmd': ['/usr/bin/cmake', '/home/pjy/ros2_ws/src/ea_ipm', '-DCMAKE_INSTALL_PREFIX=/home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm'], 'cwd': '/home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pjy'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '2013'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/pjy'), ('OLDPWD', '/home/pjy/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1838'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '60959'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'pjy'), ('JOURNAL_STREAM', '8:51973'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pjy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/pjy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pjy-desktop:@/tmp/.ICE-unix/2056,unix/pjy-desktop:/tmp/.ICE-unix/2056'), ('INVOCATION_ID', '3b7d9e7768b345e49d3bb830be27bde0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9e914c87-baf8-4a60-b135-56d34da4f507'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.055959] (ea_ipm) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.099516] (-) TimerEvent: {}
+[0.103136] (ea_ipm) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.107999] (ea_ipm) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.158042] (ea_ipm) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.159466] (ea_ipm) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199654] (-) TimerEvent: {}
+[0.231318] (ea_ipm) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.245308] (ea_ipm) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.245854] (ea_ipm) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.248586] (ea_ipm) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.299813] (-) TimerEvent: {}
+[0.324716] (ea_ipm) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.325351] (ea_ipm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.371501] (ea_ipm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.378220] (ea_ipm) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.378555] (ea_ipm) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.382707] (ea_ipm) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.399295] (ea_ipm) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.399415] (ea_ipm) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.399852] (-) TimerEvent: {}
+[0.500031] (-) TimerEvent: {}
+[0.538460] (ea_ipm) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.578863] (ea_ipm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.584723] (ea_ipm) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.600121] (-) TimerEvent: {}
+[0.643376] (ea_ipm) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.662818] (ea_ipm) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.700255] (-) TimerEvent: {}
+[0.718140] (ea_ipm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.760615] (ea_ipm) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.762121] (ea_ipm) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.763265] (ea_ipm) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.800361] (-) TimerEvent: {}
+[0.808835] (ea_ipm) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.809026] (ea_ipm) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.856392] (ea_ipm) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.856569] (ea_ipm) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.892285] (ea_ipm) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.892438] (ea_ipm) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.900476] (-) TimerEvent: {}
+[0.934262] (ea_ipm) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.934931] (ea_ipm) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.000589] (-) TimerEvent: {}
+[1.043144] (ea_ipm) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.100716] (-) TimerEvent: {}
+[1.136566] (ea_ipm) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.2.0") \n'}
+[1.137676] (ea_ipm) StdoutLine: {'line': b'-- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[1.144690] (ea_ipm) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.197084] (ea_ipm) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.199680] (ea_ipm) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.199877] (ea_ipm) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.199934] (ea_ipm) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.200763] (-) TimerEvent: {}
+[1.202470] (ea_ipm) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.202609] (ea_ipm) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.203961] (ea_ipm) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.206976] (ea_ipm) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.207248] (ea_ipm) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.207666] (ea_ipm) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.209739] (ea_ipm) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.218315] (ea_ipm) StdoutLine: {'line': b'-- Generating done\n'}
+[1.219336] (ea_ipm) StdoutLine: {'line': b'-- Build files have been written to: /home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm\n'}
+[1.224746] (ea_ipm) CommandEnded: {'returncode': 0}
+[1.225228] (ea_ipm) JobProgress: {'identifier': 'ea_ipm', 'progress': 'build'}
+[1.225688] (ea_ipm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm', '--', '-j16', '-l16'], 'cwd': '/home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pjy'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '2013'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/pjy'), ('OLDPWD', '/home/pjy/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1838'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '60959'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'pjy'), ('JOURNAL_STREAM', '8:51973'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pjy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/pjy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pjy-desktop:@/tmp/.ICE-unix/2056,unix/pjy-desktop:/tmp/.ICE-unix/2056'), ('INVOCATION_ID', '3b7d9e7768b345e49d3bb830be27bde0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9e914c87-baf8-4a60-b135-56d34da4f507'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.251298] (ea_ipm) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ea_ipm\x1b[0m\n'}
+[1.291669] (ea_ipm) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ea_ipm.dir/src/get_ea_ipm.cpp.o\x1b[0m\n'}
+[1.300899] (-) TimerEvent: {}
+[1.401197] (-) TimerEvent: {}
+[1.501474] (-) TimerEvent: {}
+[1.601778] (-) TimerEvent: {}
+[1.702034] (-) TimerEvent: {}
+[1.802340] (-) TimerEvent: {}
+[1.902629] (-) TimerEvent: {}
+[2.002888] (-) TimerEvent: {}
+[2.103178] (-) TimerEvent: {}
+[2.203506] (-) TimerEvent: {}
+[2.303775] (-) TimerEvent: {}
+[2.404051] (-) TimerEvent: {}
+[2.504366] (-) TimerEvent: {}
+[2.604655] (-) TimerEvent: {}
+[2.704931] (-) TimerEvent: {}
+[2.805212] (-) TimerEvent: {}
+[2.905490] (-) TimerEvent: {}
+[3.005776] (-) TimerEvent: {}
+[3.106064] (-) TimerEvent: {}
+[3.206349] (-) TimerEvent: {}
+[3.306625] (-) TimerEvent: {}
+[3.406864] (-) TimerEvent: {}
+[3.507143] (-) TimerEvent: {}
+[3.607433] (-) TimerEvent: {}
+[3.707693] (-) TimerEvent: {}
+[3.807983] (-) TimerEvent: {}
+[3.908263] (-) TimerEvent: {}
+[4.008545] (-) TimerEvent: {}
+[4.108814] (-) TimerEvent: {}
+[4.209081] (-) TimerEvent: {}
+[4.309352] (-) TimerEvent: {}
+[4.409623] (-) TimerEvent: {}
+[4.509878] (-) TimerEvent: {}
+[4.610114] (-) TimerEvent: {}
+[4.710377] (-) TimerEvent: {}
+[4.810618] (-) TimerEvent: {}
+[4.910843] (-) TimerEvent: {}
+[5.011126] (-) TimerEvent: {}
+[5.019683] (ea_ipm) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ea_ipm\x1b[0m\n'}
+[5.111223] (-) TimerEvent: {}
+[5.211491] (-) TimerEvent: {}
+[5.311763] (-) TimerEvent: {}
+[5.397124] (ea_ipm) StdoutLine: {'line': b'[100%] Built target ea_ipm\n'}
+[5.406722] (ea_ipm) CommandEnded: {'returncode': 0}
+[5.411881] (-) TimerEvent: {}
+[5.428702] (ea_ipm) JobProgress: {'identifier': 'ea_ipm', 'progress': 'install'}
+[5.437344] (ea_ipm) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm'], 'cwd': '/home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pjy'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '2013'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/pjy'), ('OLDPWD', '/home/pjy/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1838'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '60959'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'pjy'), ('JOURNAL_STREAM', '8:51973'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pjy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/pjy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pjy-desktop:@/tmp/.ICE-unix/2056,unix/pjy-desktop:/tmp/.ICE-unix/2056'), ('INVOCATION_ID', '3b7d9e7768b345e49d3bb830be27bde0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9e914c87-baf8-4a60-b135-56d34da4f507'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[5.448522] (ea_ipm) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.448816] (ea_ipm) StdoutLine: {'line': b'-- Installing: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/lib/ea_ipm/ea_ipm\n'}
+[5.450641] (ea_ipm) StdoutLine: {'line': b'-- Set runtime path of "/home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/lib/ea_ipm/ea_ipm" to ""\n'}
+[5.450874] (ea_ipm) StdoutLine: {'line': b'-- Installing: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ament_index/resource_index/package_run_dependencies/ea_ipm\n'}
+[5.451027] (ea_ipm) StdoutLine: {'line': b'-- Installing: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ament_index/resource_index/parent_prefix_path/ea_ipm\n'}
+[5.451166] (ea_ipm) StdoutLine: {'line': b'-- Installing: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ea_ipm/environment/ament_prefix_path.sh\n'}
+[5.451267] (ea_ipm) StdoutLine: {'line': b'-- Installing: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ea_ipm/environment/ament_prefix_path.dsv\n'}
+[5.451375] (ea_ipm) StdoutLine: {'line': b'-- Installing: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ea_ipm/environment/path.sh\n'}
+[5.451482] (ea_ipm) StdoutLine: {'line': b'-- Installing: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ea_ipm/environment/path.dsv\n'}
+[5.451602] (ea_ipm) StdoutLine: {'line': b'-- Installing: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ea_ipm/local_setup.bash\n'}
+[5.451731] (ea_ipm) StdoutLine: {'line': b'-- Installing: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ea_ipm/local_setup.sh\n'}
+[5.451833] (ea_ipm) StdoutLine: {'line': b'-- Installing: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ea_ipm/local_setup.zsh\n'}
+[5.451924] (ea_ipm) StdoutLine: {'line': b'-- Installing: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ea_ipm/local_setup.dsv\n'}
+[5.452021] (ea_ipm) StdoutLine: {'line': b'-- Installing: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ea_ipm/package.dsv\n'}
+[5.452126] (ea_ipm) StdoutLine: {'line': b'-- Installing: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ament_index/resource_index/packages/ea_ipm\n'}
+[5.452249] (ea_ipm) StdoutLine: {'line': b'-- Installing: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ea_ipm/cmake/ea_ipmConfig.cmake\n'}
+[5.452352] (ea_ipm) StdoutLine: {'line': b'-- Installing: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ea_ipm/cmake/ea_ipmConfig-version.cmake\n'}
+[5.452441] (ea_ipm) StdoutLine: {'line': b'-- Installing: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ea_ipm/package.xml\n'}
+[5.453614] (ea_ipm) CommandEnded: {'returncode': 0}
+[5.497138] (ea_ipm) JobEnded: {'identifier': 'ea_ipm', 'rc': 0}
+[5.497569] (-) EventReactorShutdown: {}

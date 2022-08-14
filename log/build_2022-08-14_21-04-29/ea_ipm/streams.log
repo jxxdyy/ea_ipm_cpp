@@ -1,0 +1,22 @@
+[0.010s] Invoking command in '/home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm -- -j16 -l16
+[0.052s] [100%] Built target ea_ipm_node
+[0.066s] Invoked command in '/home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm -- -j16 -l16
+[0.140s] Invoking command in '/home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm
+[0.156s] -- Install configuration: ""
+[0.156s] -- Up-to-date: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/lib/ea_ipm/ea_ipm_node
+[0.157s] -- Up-to-date: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ament_index/resource_index/package_run_dependencies/ea_ipm
+[0.157s] -- Up-to-date: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ament_index/resource_index/parent_prefix_path/ea_ipm
+[0.157s] -- Up-to-date: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ea_ipm/environment/ament_prefix_path.sh
+[0.157s] -- Up-to-date: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ea_ipm/environment/ament_prefix_path.dsv
+[0.157s] -- Up-to-date: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ea_ipm/environment/path.sh
+[0.158s] -- Up-to-date: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ea_ipm/environment/path.dsv
+[0.158s] -- Up-to-date: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ea_ipm/local_setup.bash
+[0.158s] -- Up-to-date: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ea_ipm/local_setup.sh
+[0.158s] -- Up-to-date: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ea_ipm/local_setup.zsh
+[0.158s] -- Up-to-date: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ea_ipm/local_setup.dsv
+[0.158s] -- Installing: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ea_ipm/package.dsv
+[0.158s] -- Up-to-date: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ament_index/resource_index/packages/ea_ipm
+[0.159s] -- Up-to-date: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ea_ipm/cmake/ea_ipmConfig.cmake
+[0.160s] -- Up-to-date: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ea_ipm/cmake/ea_ipmConfig-version.cmake
+[0.160s] -- Up-to-date: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ea_ipm/package.xml
+[0.160s] Invoked command in '/home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm

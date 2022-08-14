@@ -1,0 +1,48 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/pjy/ros2_ws/src/ea_ipm/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm
+[35m[1mScanning dependencies of target ea_ipm_node[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/ea_ipm_node.dir/src/get_ea_ipm_main.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable ea_ipm_node[0m
+[100%] Built target ea_ipm_node
+-- Install configuration: ""
+-- Installing: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/lib/ea_ipm/ea_ipm_node
+-- Set runtime path of "/home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/lib/ea_ipm/ea_ipm_node" to ""
+-- Installing: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ament_index/resource_index/package_run_dependencies/ea_ipm
+-- Installing: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ament_index/resource_index/parent_prefix_path/ea_ipm
+-- Up-to-date: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ea_ipm/environment/ament_prefix_path.sh
+-- Installing: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ea_ipm/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ea_ipm/environment/path.sh
+-- Installing: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ea_ipm/environment/path.dsv
+-- Up-to-date: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ea_ipm/local_setup.bash
+-- Up-to-date: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ea_ipm/local_setup.sh
+-- Up-to-date: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ea_ipm/local_setup.zsh
+-- Installing: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ea_ipm/local_setup.dsv
+-- Installing: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ea_ipm/package.dsv
+-- Up-to-date: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ament_index/resource_index/packages/ea_ipm
+-- Up-to-date: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ea_ipm/cmake/ea_ipmConfig.cmake
+-- Up-to-date: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ea_ipm/cmake/ea_ipmConfig-version.cmake
+-- Installing: /home/pjy/ros2_ws/src/ea_ipm/install/ea_ipm/share/ea_ipm/package.xml

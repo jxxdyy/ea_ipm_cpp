@@ -1,0 +1,11 @@
+[0.010s] Invoking command in '/home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm -- -j16 -l16
+[0.035s] [35m[1mScanning dependencies of target ea_ipm[0m
+[0.045s] [ 50%] [32mBuilding CXX object CMakeFiles/ea_ipm.dir/src/get_ea_ipm.cpp.o[0m
+[0.053s] [01m[K/home/pjy/ros2_ws/src/ea_ipm/src/get_ea_ipm.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kea_ipm/get_ea_ipm.h: No such file or directory
+[0.053s]     5 | #include [01;31m[K"ea_ipm/get_ea_ipm.h"[m[K
+[0.053s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[0.053s] compilation terminated.
+[0.053s] make[2]: *** [CMakeFiles/ea_ipm.dir/build.make:63: CMakeFiles/ea_ipm.dir/src/get_ea_ipm.cpp.o] Error 1
+[0.054s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/ea_ipm.dir/all] Error 2
+[0.054s] make: *** [Makefile:141: all] Error 2
+[0.056s] Invoked command in '/home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/pjy/ros2_ws/src/ea_ipm/build/ea_ipm -- -j16 -l16
