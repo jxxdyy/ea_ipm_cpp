@@ -1,4 +1,4 @@
-#include "ea_ipm/get_ea_ipm.h"
+#include "ea_ipm_cpp/get_ea_ipm.h"
 
 int main(int argc, char * argv[])
 {

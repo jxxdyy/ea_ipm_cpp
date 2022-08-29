@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(ea_ipm)
+project(ea_ipm_cpp)
 
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
@@ -19,14 +19,18 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
 find_package(OpenCV REQUIRED)
 find_package(cv_bridge REQUIRED)
+find_package(Eigen3 REQUIRED)
+
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
 include_directories(
     include
+    "/usr/include/eigen3"
 )
 
 add_executable(${PROJECT_NAME}_node src/get_ea_ipm.cpp src/get_ea_ipm_main.cpp)
