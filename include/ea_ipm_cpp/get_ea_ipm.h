@@ -40,6 +40,7 @@ class EA_IPM : public rclcpp::Node // node class 상속
         float tilt = 0.0;
 
         float theta = -tilt;
+        float theta_p, theta_r; // pitch, roll
         
         // euler angle
         double imu_roll, imu_pitch, imu_yaw;
@@ -49,10 +50,13 @@ class EA_IPM : public rclcpp::Node // node class 상속
         std::string parent_frame;
     
         cv::Mat get_roi_img(cv::Mat img);
+        cv::Mat get_IPM_img(std::vector<std::vector<float>> point_fields);
         sensor_msgs::msg::PointCloud2 convert_PC2(std::vector<std::vector<float>> point_fields);
+        Eigen::MatrixXf adaptive_roll(float r, float c);
         void imu_quat2euler(const sensor_msgs::msg::Imu::SharedPtr imu_msg);
         void odom_quat2euler(const nav_msgs::msg::Odometry::SharedPtr odom_msg);
         void get_ea_ipm(const sensor_msgs::msg::CompressedImage::SharedPtr img_msg);
+        void print_func();
 
         rclcpp::Subscription<sensor_msgs::msg::CompressedImage>::SharedPtr image_sub;
         rclcpp::Subscription<sensor_msgs::msg::Imu>::SharedPtr imu_sub;

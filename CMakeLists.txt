@@ -34,7 +34,7 @@ include_directories(
 )
 
 add_executable(${PROJECT_NAME}_node src/get_ea_ipm.cpp src/get_ea_ipm_main.cpp)
-ament_target_dependencies(${PROJECT_NAME}_node rclcpp sensor_msgs OpenCV cv_bridge)
+ament_target_dependencies(${PROJECT_NAME}_node rclcpp sensor_msgs nav_msgs OpenCV cv_bridge)
 target_link_libraries(${PROJECT_NAME}_node)
 
 install(TARGETS
